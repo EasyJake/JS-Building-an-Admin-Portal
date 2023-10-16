@@ -1,0 +1,72 @@
+/* testing styles */
+/* body {
+    background-color: red;
+} */
+
+
+/* Victorian Academia Themed Stylesheet */
+
+/* Base font settings; serif fonts were common in Victorian times */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #5A4D41; /* deep, muted brown for an old-time feel */
+    background-color: #848382; /* soft, aged paper style */
+    line-height: 1.6; /* improve readability */
+}
+
+/* Headers in a more ornate, serif font to stand out */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif; /* decorative, high-contrast serif font */
+    color: #4A3F37; /* even deeper brown for contrast */
+}
+
+/* Anchor elements with a classic understated style */
+body {
+    color: #6D5E54; /* muted, earthy brown */
+    text-decoration: underline; /* classic link indication */
+}
+
+a:hover {
+    color: #855E49; /* slightly redder brown for a hover effect */
+}
+
+/* Button styling with an 'old leather' look */
+button {
+    background-color: #8B6D5B; /* leather-like, deep tan */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase; /* common for old academic styles */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6D5E54; /* darker version of the same hue on hover */
+}
+
+/* Footer and header areas might use a deeper, more solid color */
+header, footer {
+    background-color: #5A4D41; /* deep, rich brown */
+    color: white;
+    padding: 20px 0;
+}
+
+/* Use of classic patterns or separators */
+hr {
+    border: none;
+    height: 1px;
+    background: #D3C0B0 url('victorian-pattern.png') repeat-x; /* a subtle, Victorian-style pattern */
+}
+
+/* Classic, ornate borders for images or containers */
+.container-with-border {
+    border: 2px solid #5A4D41; /* muted brown */
+    padding: 20px;
+    background-image: url('old-paper-texture.jpg'); /* an old paper texture for authenticity */
+    background-size: cover;
+}
+
+
+
